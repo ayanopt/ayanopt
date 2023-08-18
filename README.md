@@ -3,31 +3,14 @@ I've been forward-testing statistical arbitrage trading techniques. The repo is 
 The results are updated every weekday by crontab scheduling on EC2.
 Here are the results so far
 
-SPY:
-
+<marquee behavior="scroll" direction="up">
 <img src="./imgs/SPY.jpg"/>
-QQQ:
-
 <img src="./imgs/QQQ.jpg"/>
-
-TSLA:
-
 <img src="./imgs/TSLA.jpg"/>
-AAPL:
-
 <img src="./imgs/AAPL.jpg"/>
-IWM:
-
 <img src="./imgs/IWM.jpg"/>
-NVDA:
-
 <img src="./imgs/NVDA.jpg"/>
-EUR/USD:
-
 <img src="./imgs/EURUSD.X.jpg"/>
-USD/JPY:
-
 <img src="./imgs/USDJPY.X.jpg"/>
-GBP/USD:
-
 <img src="./imgs/GBPUSD.X.jpg"/>
+</marquee>
