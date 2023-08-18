@@ -23,10 +23,10 @@ NVDA:
 <img src="./imgs/NVDA.jpg"/>
 EUR/USD:
 
-<img src="./imgs/EURUSD.X jpg"/>
+<img src="./imgs/EURUSD.X.jpg"/>
 USD/JPY:
 
-<img src="./imgs/USDJPY.X jpg"/>
+<img src="./imgs/USDJPY.X.jpg"/>
 GBP/USD:
 
-<img src="./imgs/GBPUSD.X jpg"/>
+<img src="./imgs/GBPUSD.X.jpg"/>
