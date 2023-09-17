@@ -13,4 +13,7 @@ Here are the results so far, note that some may not perform well because I am st
 <img src="./imgs/EURUSD.X.jpg"/>
 <img src="./imgs/USDJPY.X.jpg"/>
 <img src="./imgs/GBPUSD.X.jpg"/>
+<img src="./imgs/mean_reversion21.jpg"/>
+<img src="./imgs/mean_reversion41.jpg"/>
+<img src="./imgs/mean_reversion121.jpg"/>
 </marquee>
