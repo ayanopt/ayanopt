@@ -8,4 +8,7 @@ The results are updated every weekday by crontab scheduling on EC2.
 <img src="./imgs/mean_reversion21.jpg"/>
 <img src="./imgs/mean_reversion41.jpg"/>
 <img src="./imgs/mean_reversion121.jpg"/>
+<img src="./imgs/mean_reversion171.jpg"/>
+<img src="./imgs/mean_reversion181.jpg"/>
+<img src="./imgs/mean_reversion191.jpg"/>
 </marquee>
