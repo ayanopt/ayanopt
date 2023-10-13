@@ -12,8 +12,8 @@ For context:
 As of 10/12, I would report these are going well, I'm looking for consistency.
     
 
+<a>Pair A</a>
 <div>
-<a>Pair B</a>
 <img src="./imgs/stat_arb21.jpg"/>
 <img src="./imgs/stat_arb41.jpg"/>
 <img src="./imgs/stat_arb121.jpg"/>
