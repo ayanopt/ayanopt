@@ -10,7 +10,7 @@ For context:
 121, 21, 41 are all from 1 pair of stocks. 41 is the most frequent trader and trades on lesser divergence, while 121 is the most restrictive and trades only when there is a lot of divergence. This similar logic applies to 191, 181 and 171 which trade a different pair.
 
 As of 10/12, I would report these are going well, I'm looking for consistency.
-    
+As of 2/1/24, they are doing good, but two of them remain consistent. I have also added some crypto strats now.
 
 <a>Pair A</a>
 <div>
@@ -21,4 +21,7 @@ As of 10/12, I would report these are going well, I'm looking for consistency.
 <img src="./imgs/stat_arb171.jpg"/>
 <img src="./imgs/stat_arb181.jpg"/>
 <img src="./imgs/stat_arb191.jpg"/>
+<a>Pair C</a>
+<img src="./imgs/stat_arb192.jpg"/>
+<img src="./imgs/stat_arb190.jpg"/>
 </div>
