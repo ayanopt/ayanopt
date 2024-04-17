@@ -1,3 +1,4 @@
+
 # I'm Ayan and I enjoy Math and Trading
 I've been forward-testing statistical arbitrage trading techniques. The repo is private as a lot of it has information that I don't want shared. However, there is a lot code I want to slowly roll out for people to see regarding its infrastructure. I have some cool optimizations that people can replicate, and also borrow the infrastructure if they want to trade themselves. It's currently written in C++, Python and R, and I use bash to run/schedule commands from an EC2 instance. I love Python but I want to move to a C++/Rust architecture to improve performance. I thought this would be a good medium to share my findings and keep myself accountable
 The results are updated every weekday by crontab scheduling on EC2.
@@ -6,24 +7,6 @@ The results are updated every weekday by crontab scheduling on EC2.
 
 I use statistical arbitrage, which you can read about here: https://en.wikipedia.org/wiki/Statistical_arbitrage. All these gains/losses are from using 1000$ of stock. So if I were trading SPY and SPX, I would go short 1000$ worth of SPY and long 1000$ worth of SPX.
 
-For context:
-121, 21, 41 are all from 1 pair of stocks. 41 is the most frequent trader and trades on lesser divergence, while 121 is the most restrictive and trades only when there is a lot of divergence. This similar logic applies to 191, 181 and 171 which trade a different pair.
-
-As of 10/12, I would report these are going well, I'm looking for consistency.
-
-As of 2/1/24, they are doing good, but two of them remain consistent. I have also added some crypto strats now.
-
-As of 3/8/24, I am discontinuing Pair C because it is not profitable
-<a>Pair A</a>
 <div>
-<img src="./imgs/stat_arb21.jpg"/>
-<img src="./imgs/stat_arb41.jpg"/>
-<img src="./imgs/stat_arb121.jpg"/>
-<a>Pair B</a>
-<img src="./imgs/stat_arb171.jpg"/>
-<img src="./imgs/stat_arb181.jpg"/>
-<img src="./imgs/stat_arb191.jpg"/>
-<a>Pair C</a>
-<img src="./imgs/stat_arb192.jpg"/>
-<img src="./imgs/stat_arb190.jpg"/>
+<img src="./imgs/SPY_QQQ_0_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_1_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_16_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_17_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_53_capital.txt.jpg"/><img src="./imgs/GBTC_IBIT_0_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_8_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_27_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_9_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_2_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_20_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_10_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_15_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_18_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_19_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_6_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_21_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_23_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_5_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_26_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_7_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_30_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_56_capital.txt.jpg"/><img src="./imgs/GBTC_IBIT_3_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_46_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_14_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_11_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_13_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_12_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_34_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_25_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_3_capital.txt.jpg"/><img src="./imgs/GBTC_IBIT_1_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_35_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_4_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_24_capital.txt.jpg"/><img src="./imgs/SPY_QQQ_22_capital.txt.jpg"/>
 </div>
